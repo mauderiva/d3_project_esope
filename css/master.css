@@ -1,0 +1,105 @@
+
+header {
+  background: #F9DC06;
+  padding: 10px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  border: none;
+}
+
+header a {
+  text-decoration: none;
+  color : #ffffff;
+  padding:8px;
+  display: block;
+}
+
+.hero {
+  background: url('image/texture.jpg') top center no-repeat;
+  color : #F9DC06;
+  min-height: 100vh;
+}
+
+section {
+  min-height: 45vh;
+  padding: 42px;
+}
+
+.one {
+  display: flex;
+  background: #dbe0e4;
+  }
+
+.two {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+}
+
+.threw {
+  display: flex;
+  background: #D9D7D8;
+}
+
+.four {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+}
+
+.five {
+  display: flex;
+  background: #dbe0e4;
+}
+
+.image-block {
+  padding: 15px;
+  max-width: 640px;
+  min-width: 450px;
+  border: 12px;
+}
+
+.image-block img {
+  width : 100%;
+  display: block;
+}
+.content ,
+.illustration {
+  flex-basis: 480px;
+}
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+}
+
+footer ul {
+  list-style-type: none;
+  min-height: 100px;
+  background: #F9DC06;
+  color : #fff;
+}
+
+footer li {
+  display: inline-block;
+  border: none;
+}
+
+footer a {
+  text-decoration: none;
+  color : #ffffff;
+  padding:8px;
+  display: block;
+}
+
+section {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
