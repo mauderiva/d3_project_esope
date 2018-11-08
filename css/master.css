@@ -79,10 +79,10 @@ figcaption {
   font-style: italic;
 }
 
-footer ul {
+footer u {
   list-style-type: none;
   min-height: 100px;
-  background: #F9DC06;
+  background: #ffffff;
   color : #fff;
 }
 
@@ -91,9 +91,9 @@ footer li {
   border: none;
 }
 
-footer a {
+footer nav {
   text-decoration: none;
-  color : #ffffff;
+  color : #F9DC06;
   padding:8px;
   display: block;
 }
